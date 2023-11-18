@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon">
+    <title>Facundo Rodríguez Perdomo</title>
+    <meta name="author" content="Facundo Rodríguez Perdomo">
+    <meta name="description" content="Portafolio">
+    <meta name="keywords" content="Programador, Uruguay, Fullstack">
+    <!--Link principal Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet" 
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" 
+    crossorigin="anonymous">
+    <!--Fuentes Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--Fuente de letra Kdam-->
+    <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap" rel="stylesheet">
+    <!--Fuente de letra logo-->
+    <link href="https://fonts.googleapis.com/css2?family=Seymour+One&display=swap" rel="stylesheet">
+    <!--para que se respeten mis estilos mi CSS va debajo de link bootstrap-->
+    <link rel="stylesheet" href="/css/estilos.css">
+</head>
+
+<body> 
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" id="logo"  href="#">F</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="active" href="/index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/html/portafolio.html">Portafolio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/html/experiencia.html">Experiencia</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/html/contacto.html">Contacto</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/html/clientes.html">Clientes</a>
+                </li>
+            </ul>
+            <a href="https://wa.me/+59892076246" target="_blank" 
+                id="iconWhatsapp"><img src="/img/iconWhatsApp.png" alt=""></a>
+            <a href="https://www.linkedin.com/in/facundo-rodríguez-perdomo-804956211" target="_blank" 
+                id="iconLinkedin"><img src="/img/iconLinkedin.png" alt=""></a>
+            <a href="https://github.com/Facundo-RodriguezPedromo" target="_blank"
+                id="iconGithub"><img src="/img/iconGithub.png" alt=""></a>
+        </div>
+    </nav>
+    
+    <main>
+        <h1>Desarrollador FullStack</h1>
+        <section id="seccionPresentacion"> 
+            <h2>Facundo Rodríguez Perdomo</h2> 
+            <!--Video personal hablando a la camara presentandome y contando sobre mi--> 
+            <video controls autoplay muted loop width="500px" poster="">
+                <source src="" type="video/mp4">
+            </video> <hr>
+
+            <article>
+                <p>Inicié mis estudios en el Desarrollo Web a través del programa "Jóvenes a Programar" en 2021, donde adquirí habilidades en lenguajes como
+                HTML, CSS, JavaScript y Node.js. Al finalizar este curso, llevé a cabo un proyecto final que consistió en el desarrollo de una página de 
+                comercio electrónico. En la actualidad, continuo mi formación de manera autodidacta, centrándome en el aprendizaje de inglés y React.
+                <br> <br>
+                Actualmente trabajo en CEIP y he desempeñado diversos roles, lo que me ha brindado una enriquecedora experiencia en áreas como: Organización 
+                institucional, colaboración de manera cercana con educadores y equipo directivo, interacción diaria con el público, incluyendo 
+                padres y madres de los estudiantes, participación activa en diversos entornos educativos, gestión y 
+                organización del inventario en colaboración con proveedores y distribuidores, planificación de menús de acuerdo con las normativas de Primaria, 
+                en coordinación con el equipo directivo y el nutricionista. 
+                <br> <br>
+                Actualmente, estoy en búsqueda de mi primer oportunidad laboral en el sector de Tecnologías
+                de la Información. Me entusiasma seguir adquiriendo nuevas competencias tecnológicas y estoy dispuesto a compartir mis conocimientos con el equipo. 
+                Mi objetivo es contribuir de manera significativa en un entorno IT mientras sigo perfeccionando mis habilidades.
+                </p>
+            </article>
+        </section>
+
+        <section id="seccionAptitudes">
+            <button class="buttonAptitudes" onmouseout="mostrar()">Aptitudes Principales</button> <br> <br>
+        <!--<div class="cartas">
+                <button class="carta" ">
+                    <h3>JavaScript</h3>
+                </button>
+                <button class="carta">
+                    <h3>React</h3>
+                </button>
+                <button class="carta">
+                    <h3>Git</h3>
+                </button>
+            </div>-->
+        </section> 
+    </main>
+    <br> <br> <br>
+    <footer>
+        <p>Derechos reservados &copy; 2023</p>
+    </footer>
+    <script src="/js/efectos.js"></script>
+    <!--Links para menu hamburguesa-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!--Link principal de Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" 
+    crossorigin="anonymous"></script>
+</body>
+</html>

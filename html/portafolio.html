@@ -23,6 +23,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Seymour+One&display=swap" rel="stylesheet">
     <!--para que se respeten mis estilos mi CSS va debajo de link bootstrap-->
     <link rel="stylesheet" href="/css/estilos.css">
+    <link rel="stylesheet" href="/css/portafolio.css">
 </head>
 
 <body> 
@@ -58,38 +59,61 @@
         </div>
     </nav>
 
-    <h1>Portafolio</h1>
+    <h1>Proyectos</h1>
+    <div class="container mt-5">
 
-    <div class="portafolio">
-        <div class="proyecto" onmouseover="moverCarta()" onmouseleave="volverCarta()">
-            <h2>eCommerce JAP</h2>
-            <p>Página ecommerce creada para curso de Ceibal</p>
-            <a href="https://facundo-rodriguezpedromo.github.io/ecommerce-JAP/" target="_blank">Visitar sitio</a>
-        </div>
-        <div class="proyecto" onmouseover="moverCarta()" onmouseleave="volverCarta()">
-            <h2>Distribuidora</h2>
-            <p>Página para distribuidora, muestra productos y calcula precios con un carrito</p>
-            <a href="" target="_blank">Visitar sitio</a>
-        </div>
-        <div class="proyecto" onmouseover="moverCarta()" onmouseleave="volverCarta()">
-            <h2>Tetris Facundero</h2>
-            <p>Juego de tetris personalizado con funciones nuevas </p>
-            <a href="" target="_blank">Visitar sitio</a>
-        </div>
-        <div class="proyecto" onmouseover="moverCarta()" onmouseleave="volverCarta()">
-            <h2>Cocina Escuelas</h2>
-            <p>Página para cocina de escuelas calcula gastos y ofrece recetas y cantidades para comensales de un comedor</p>
-            <a href="" target="_blank">Visitar sitio</a>
+        <div class="row">
+
+            <div class="col-md-6 col-lg-3 mb-4">
+                <div class="card portfolio-card">
+                        <img src="" class="card-img-top" alt="IMG">
+                    <div class="card-body">
+                        <h5 class="card-title">eCommerce JAP</h5> <br>
+                        <p class="card-text">Proyecto final de "Jovenes a Programar" 2021</p> <br>
+                        <button id="btnLink"><a href="https://facundo-rodriguezpedromo.github.io/ecommerce-JAP/" class="linkProyecto">Ver Proyecto</a></button>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="col-md-6 col-lg-3 mb-4">
+                <div class="card portfolio-card">
+                    <img src="" class="card-img-top" alt="IMG">
+                    <div class="card-body">
+                        <h5 class="card-title">Distribuidora</h5> <br>
+                        <p class="card-text">Proyecto para gestionar mercaderias de una distribuidora de alimentos.</p> <br>
+                        <button id="btnLink"><a href="" class="linkProyecto">Ver Proyecto</a></button>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="col-md-6 col-lg-3 mb-4">
+                <div class="card portfolio-card">
+                    <img src="" class="card-img-top" alt="IMG">
+                    <div class="card-body">
+                        <h5 class="card-title">Tetris Facundero</h5> <br>
+                        <p class="card-text">Tradicional juego del tetris con nuevas reglas y efectos.</p> <br>
+                        <button id="btnLink"><a href="" class="linkProyecto">Ver Proyecto</a></button>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="col-md-6 col-lg-3 mb-4">
+                <div class="card portfolio-card">
+                    <img src="" class="card-img-top" alt="IMG">
+                    <div class="card-body">
+                        <h5 class="card-title">Cocina Escuelas</h5> <br>
+                        <p class="card-text">Proyecto para la gestion de las cocinas escolares.</p> <br>
+                        <button id="btnLink"><a href="" class="linkProyecto">Ver Proyecto</a></button>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
 
-
-<br> <br> <br>
 <footer>
     <p>Derechos reservados &copy; 2023</p>
 </footer>
-
-<script src="/js/efectos.js"></script>
     <!--Links para menu hamburguesa-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>

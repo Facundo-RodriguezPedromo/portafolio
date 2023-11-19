@@ -21,8 +21,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap" rel="stylesheet">
     <!--Fuente de letra logo-->
     <link href="https://fonts.googleapis.com/css2?family=Seymour+One&display=swap" rel="stylesheet">
+    <!--Animacion para las imagenes de aptitudes-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <!--para que se respeten mis estilos mi CSS va debajo de link bootstrap-->
     <link rel="stylesheet" href="/css/estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 </head>
 
 <body> 
@@ -58,53 +61,36 @@
         </div>
     </nav>
     
+    <h1>Desarrollador FullStack</h1> 
     <main>
-        <h1>Desarrollador FullStack</h1>
-        <section id="seccionPresentacion"> 
-            <h2>Facundo Rodríguez Perdomo</h2> 
-            <!--Video personal hablando a la camara presentandome y contando sobre mi--> 
-            <video controls autoplay muted loop width="500px" poster="">
-                <source src="" type="video/mp4">
-            </video> <hr>
+        <div class="container text-center">
+            <div class="row">
+                <div class="col"> <br> <br>
+                    <div class="imgJS">
+                        <img src="/img/JS.png" class="img-fluid animate__animated animate__bounce animate__infinite"> <!--animate__repeat-3-->
+                    </div>
+                </div>
 
-            <article>
-                <p>Inicié mis estudios en el Desarrollo Web a través del programa "Jóvenes a Programar" en 2021, donde adquirí habilidades en lenguajes como
-                HTML, CSS, JavaScript y Node.js. Al finalizar este curso, llevé a cabo un proyecto final que consistió en el desarrollo de una página de 
-                comercio electrónico. En la actualidad, continuo mi formación de manera autodidacta, centrándome en el aprendizaje de inglés y React.
-                <br> <br>
-                Actualmente trabajo en CEIP y he desempeñado diversos roles, lo que me ha brindado una enriquecedora experiencia en áreas como: Organización 
-                institucional, colaboración de manera cercana con educadores y equipo directivo, interacción diaria con el público, incluyendo 
-                padres y madres de los estudiantes, participación activa en diversos entornos educativos, gestión y 
-                organización del inventario en colaboración con proveedores y distribuidores, planificación de menús de acuerdo con las normativas de Primaria, 
-                en coordinación con el equipo directivo y el nutricionista. 
-                <br> <br>
-                Actualmente, estoy en búsqueda de mi primer oportunidad laboral en el sector de Tecnologías
-                de la Información. Me entusiasma seguir adquiriendo nuevas competencias tecnológicas y estoy dispuesto a compartir mis conocimientos con el equipo. 
-                Mi objetivo es contribuir de manera significativa en un entorno IT mientras sigo perfeccionando mis habilidades.
-                </p>
-            </article>
-        </section>
+                <div class="col-6">
+                    <h2>Facundo Rodríguez Perdomo</h2> <br>
+                    <video controls autoplay muted loop width="500px" poster="">
+                        <source src="/videoPrueba(1080p).mp4" type="video/mp4">
+                    </video> <br>
+                    <img src="/img/NODE.png" class="img-fluid animate__animated animate__rubberBand animate__infinite">
+                </div>
 
-        <section id="seccionAptitudes">
-            <button class="buttonAptitudes" onmouseout="mostrar()">Aptitudes Principales</button> <br> <br>
-        <!--<div class="cartas">
-                <button class="carta" ">
-                    <h3>JavaScript</h3>
-                </button>
-                <button class="carta">
-                    <h3>React</h3>
-                </button>
-                <button class="carta">
-                    <h3>Git</h3>
-                </button>
-            </div>-->
-        </section> 
+                <div class="col"> <br> <br>
+                    <div class="imgREACT">
+                        <img src="/img/REACT.png" class="img-fluid animate__animated animate__bounce animate__infinite">
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
-    <br> <br> <br>
-    <footer>
-        <p>Derechos reservados &copy; 2023</p>
-    </footer>
-    <script src="/js/efectos.js"></script>
+
+<footer>
+    <p>Derechos reservados &copy; 2023</p>
+</footer>
     <!--Links para menu hamburguesa-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>

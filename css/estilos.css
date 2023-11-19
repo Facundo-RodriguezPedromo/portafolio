@@ -87,7 +87,6 @@ nav ul li a:hover {
 h1 {
     font-family: 'Kdam Thmor Pro', sans-serif;
     color: aliceblue;
-    text-align: center;
     font-size: 48px;
     filter: drop-shadow(5px 2px 1px var(--azulScuro));
 }

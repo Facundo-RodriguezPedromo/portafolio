@@ -1,16 +1,17 @@
 :root {
-    --azulScuro: #072C50;
+    --azulTransparente: #072c5054;
+    --azulScuro: #072C50; 
     --dorado: rgb(184,135,70);
+    --doradoClaro: rgba(239, 243, 8, 0.295);
     --grisaseo: #5c5c5fed;
-    --verde-claro: #73df5bbb;
     --blancoZulado: #e6edf3de;
     --blancoScuro: #bec4cade;
+    --blancoTransparente: #e6edf365;
 }
-
 .portfolio-card {
-    color: black; 
+    color: var(--azulScuro); 
     border-radius: 5px;
-    background-color: #e6edf365;
+    background-color: var(--blancoTransparente);
     box-shadow: 2px 2px 4px 2px var(--blancoZulado);
     transform: perspective(600px) rotateY(10deg);
     min-height: 300px;
@@ -26,23 +27,24 @@
     font-size: 16px;
     text-align: center;
     text-decoration: none;
-    border: 2px solid transparent;
+    border: 2px solid var(--blancoTransparente);
     border-radius: 5px;
     transition: all 0.3s ease;
-    background-color: #072C50; 
+    background-color: var(--azulScuro); 
+    filter: drop-shadow(5px 2px 1px var(--azulScuro));
 }
 #btnLink:hover {
-    border-radius: 15px;
-    background-color: #072c50;
+    border-radius: 7px;
+    background-color: var(--blancoTransparente);
     box-shadow: 2px 2px 4px 2px var(--dorado);
-    color: white;
+    
 }
 .linkProyecto {
     text-decoration: none;
     color: var(--blancoZulado);
 }
 .linkProyecto:hover {
-    color: white;
+    color: var(--azulScuro);
     text-decoration: none;
     
 }

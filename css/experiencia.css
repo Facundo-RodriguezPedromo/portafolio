@@ -1,0 +1,78 @@
+:root {
+    --azulTransparente: #072c5054;
+    --azulScuro: #072C50; 
+    --dorado: rgb(184,135,70);
+    --doradoClaro: rgba(239, 243, 8, 0.295);
+    --grisaseo: #5c5c5fed;
+    --blancoZulado: #e6edf3de;
+    --blancoScuro: #bec4cade;
+    --blancoTransparente: #e6edf365;
+}
+main {
+    background-color: var(--blancoTransparente); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 50px;
+    border-style: outset;
+    border-color: var(--dorado);
+    filter: drop-shadow(5px 2px 1px var(--azulScuro));
+}
+main:hover {
+    background-color: var(--blancoZulado); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 50px;
+    border-style: outset;
+    border-color: var(--dorado);
+    filter: drop-shadow(5px 2px 1px var(--azulScuro));
+}
+/*Cartas de cursos y carreras*/
+.portfolio-card {
+    color: var(--azulScuro); 
+    border-radius: 5px;
+    background-color: var(--blancoTransparente);
+    box-shadow: 2px 2px 4px 2px var(--blancoZulado);
+    transform: perspective(600px) rotateY(10deg);
+    min-height: 300px;
+}
+.portfolio-card:hover {
+    transform: perspective(400px) rotateY(10deg);
+    box-shadow: 2px 2px 4px 2px var(--dorado);
+    background-color: var(--blancoZulado);
+}
+#btnLink{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid var(--blancoTransparente);
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    background-color: var(--azulScuro); 
+    filter: drop-shadow(5px 2px 1px var(--azulScuro));
+}
+#btnLink:hover {
+    border-radius: 7px;
+    background-color: var(--blancoTransparente);
+    box-shadow: 2px 2px 4px 2px var(--dorado);
+    
+}
+.linkProyecto {
+    text-decoration: none;
+    color: var(--blancoZulado);
+}
+.linkProyecto:hover {
+    color: var(--azulScuro);
+    text-decoration: none;
+    
+}
+.portfolio-img {
+    width: 100%; 
+    height: auto;
+    filter: drop-shadow(5px 2px 1px var(--azulScuro));
+}

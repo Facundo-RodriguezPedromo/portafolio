@@ -61,12 +61,13 @@ nav ul li a {
 nav ul li a.active {
     border-radius: 15px;
     background-color: var(--blancoTransparente);
-    box-shadow: 2px 2px 4px 2px var(--blancoZulado);
+    box-shadow: 1px 1px 4px 1px var(--blancoZulado);
     color: white;
+    filter: drop-shadow(5px 2px 1px var(--azulScuro));
 }
 nav ul li a:hover {
     border-radius: 15px;
-    box-shadow: 2px 2px 4px 2px var(--dorado);
+    box-shadow: 1px 1px 4px 1px var(--dorado);
     color: white;
     transition: all 0.3s ease;
 }

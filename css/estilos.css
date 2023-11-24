@@ -22,10 +22,11 @@ body {
 .navbar-toggler {
     background-color: white; 
     border: none;
+    margin-right: 2px;
 }
 .navbar {
     background-color: var(--azulTransparente); 
-    padding: 2px;
+    padding: 10px;
 }
 nav #logo {
     color: var(--dorado); 
@@ -89,7 +90,6 @@ nav ul li a:hover {
 }
 /*main*/
 h1 {
-    font-family: 'Kdam Thmor Pro', sans-serif;
     color: var(--blancoZulado);
     font-size: 48px;
     filter: drop-shadow(5px 2px 1px var(--doradoClaro));
@@ -102,7 +102,7 @@ main {
     filter: drop-shadow(5px 2px 1px var(--azulScuro));
 }
 main img {
-    filter: drop-shadow(5px 2px 1px var(--azulScuro));
+    filter: drop-shadow(10px 2px 1px var(--azulScuro));
 }
 h2 {
     color: var(--blancoZulado);

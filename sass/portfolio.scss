@@ -1,0 +1,30 @@
+@import 'variables', 'mixins';
+
+.portfolio-card {
+    @include portfolio-card;
+    &:hover {
+        transform: perspective(400px) rotateY(10deg);
+        box-shadow: 2px 2px 4px 2px $dorado;
+        background-color: $blancoZulado;
+    }
+}
+
+#btnLink{
+    @include btnLink;
+    &:hover {
+        border-radius: 7px;
+        background-color: $blancoTransparente;
+        box-shadow: 2px 2px 4px 2px $dorado;
+        
+    }
+}
+
+.linkProyecto {
+    text-decoration: none;
+    color: $blancoZulado;
+}
+.linkProyecto:hover {
+    color: $azulScuro;
+    text-decoration: none;
+    
+}

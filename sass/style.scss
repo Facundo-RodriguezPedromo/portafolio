@@ -9,17 +9,22 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    
+    position: relative;
+    padding-bottom: 3em;
 
     h1 {
         color: $blancoZulado;
         font-size: 48px;
-        filter: drop-shadow(5px 2px 1px $doradoClaro);
+        filter: drop-shadow(5px 2px 1px $azulTransparente);
+        
     }
 
     h2 {
         color: $blancoZulado;
         font-size: 28px;
         filter: drop-shadow(5px 2px 1px $azulScuro);
+        
     }
 
     main {
@@ -28,6 +33,7 @@ body {
         border-style: outset;
         border-color: $dorado;
         filter: drop-shadow(5px 2px 1px $azulScuro);
+        margin-bottom: 20vh;
 
         img {
             filter: drop-shadow(10px 2px 1px $blancoTransparente);
@@ -46,6 +52,10 @@ body {
         text-align: center;
         padding: 10px;
         box-shadow: 2px 2px 4px 2px $dorado;
+
+        position: absolute;
+        bottom: 0;
+        width: 100%;
     }
 }
 

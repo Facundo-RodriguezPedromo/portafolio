@@ -26,7 +26,7 @@ body main {
   border-style: outset;
   border-color: rgb(184, 135, 70);
   filter: drop-shadow(5px 2px 1px #072C50);
-  margin-bottom: 20vh;
+  margin-bottom: 30%;
 }
 body main img {
   filter: drop-shadow(10px 2px 1px rgba(230, 237, 243, 0.3960784314));
@@ -36,13 +36,19 @@ body main video {
   filter: drop-shadow(5px 2px 1px rgba(239, 243, 8, 0.295));
   border-radius: 5px;
 }
+@media (min-width: 360px) {
+  body main main video {
+    width: 100%;
+    height: auto;
+  }
+}
 body footer {
   background-color: rgba(7, 44, 80, 0.3294117647);
   color: rgba(230, 237, 243, 0.8705882353);
   text-align: center;
   padding: 10px;
   box-shadow: 2px 2px 4px 2px rgb(184, 135, 70);
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
 }
@@ -114,7 +120,7 @@ body footer {
 .navbar #iconLinkedin:hover,
 .navbar #iconGithub:hover {
   border-radius: 20px;
-  transform: scale(0.6);
+  transform: scale(0.7);
   box-shadow: 2px 2px 4px 2px rgb(184, 135, 70);
 }
 

@@ -63,14 +63,23 @@
 
     <h1 class="text-center">Clientes</h1>
     <main>
-        <p>En esta seccion voy a hacer una seccion para que los clientes 
-            puedan dejar sus opiniones o pedir referencias, una especie de foro
-        </p>
+        <div id="comment-section">
+            <h2>Deja tu comentario</h2>
+            <textarea id="comment-text" placeholder="Escribe tu comentario"></textarea>
+            <button onclick="publicarComentario()">Publicar</button>
+        </div>
+    
+        <div id="comment-list">
+            <h2>Comentarios</h2>
+            <ul id="comment-ul"></ul>
+        </div>
     </main>
 
 <footer>
     <p>Derechos reservados &copy; 2023</p>
 </footer> 
+
+<script src="/js/clientes.js"></script>
     <!--Links para menu hamburguesa-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>

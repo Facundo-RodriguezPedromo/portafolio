@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facundo Rodríguez Perdomo</title>
+    <meta name="author" content="Facundo Rodríguez Perdomo">
+    <meta name="description" content="Portafolio de Facundo Rodríguez, desarrollador Fulltack">
+    <meta name="keywords" content="Programador, Uruguay, Fullstack">
+    <!--Icono de la pestaña-->
+    <link rel="icon" href="../img/icon.png" type="image/png">
+    <!--Link principal Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet" 
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" 
+    crossorigin="anonymous">
+    <!--Fuentes Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--Fuente de letra general (kdam)-->
+    <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap" rel="stylesheet">
+    <!--Fuente de letra logo-->
+    <link href="https://fonts.googleapis.com/css2?family=Seymour+One&display=swap" rel="stylesheet">
+    <!--Animacion para las imagenes de aptitudes-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <!--para que se respeten mis estilos mi CSS va debajo de link bootstrap-->
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+
+<body> 
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" id="logo"  href="../index.html">F</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav"> <br>
+                <li>
+                    <a href="../index.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="portafolio.html">Portafolio</a>
+                </li>
+                <li>
+                    <a href="experiencia.html">Experiencia</a>
+                </li>
+                <li>
+                    <a href="contacto.html">Contacto</a>
+                </li>
+                <li>
+                    <a class="active" href="clientes.html">Clientes</a>
+                </li>
+            </ul>
+            <a href="https://wa.me/+59892076246" target="_blank" 
+                id="iconWhatsapp"><img src="../img/iconWhatsApp.png" alt="Icono de whatsapp"></a>
+            <a href="https://www.linkedin.com/in/facundo-rodríguez-perdomo-804956211" target="_blank" 
+                id="iconLinkedin"><img src="../img/iconLinkedin.png" alt="Icono de Linkedin"></a>
+            <a href="https://github.com/Facundo-RodriguezPedromo" target="_blank"
+                id="iconGithub"><img src="../img/iconGithub.png" alt="Icono de github"></a>
+        </div>
+    </nav>
+
+    <h1 class="text-center">Clientes</h1>
+    <main>
+        <div id="comment-section">
+            <h2>Deja tu comentario</h2>
+            <textarea id="comment-text" placeholder="Escribe tu comentario"></textarea>
+            <button onclick="publicarComentario()">Publicar</button>
+        </div>
+    
+        <div id="comment-list">
+            <h2>Comentarios</h2>
+            <ul id="comment-ul"></ul>
+        </div>
+    </main>
+
+<footer>
+    <p>Derechos reservados &copy; 2023</p>
+</footer> 
+
+<script src="/js/clientes.js"></script>
+    <!--Links para menu hamburguesa-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!--Link principal de Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" 
+    crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,127 @@
+/*ESTILOS GENERALES PARA TODAS LAS PAGINAS Y PARTE DEL INDEX*/
+body {
+  font-family: "Kdam Thmor Pro", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url("../img/fondoTec.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  padding-bottom: 3em;
+}
+body h1 {
+  color: rgba(230, 237, 243, 0.8705882353);
+  font-size: 48px;
+  filter: drop-shadow(5px 2px 1px rgba(7, 44, 80, 0.3294117647));
+}
+body h2 {
+  color: rgba(230, 237, 243, 0.8705882353);
+  font-size: 28px;
+  filter: drop-shadow(5px 2px 1px #072C50);
+}
+body main {
+  background-color: rgba(230, 237, 243, 0.3960784314);
+  margin: 50px;
+  border-style: outset;
+  border-color: rgb(184, 135, 70);
+  filter: drop-shadow(5px 2px 1px #072C50);
+  margin-bottom: 30%;
+}
+body main img {
+  filter: drop-shadow(10px 2px 1px rgba(230, 237, 243, 0.3960784314));
+}
+body main video {
+  max-width: 100%;
+  filter: drop-shadow(5px 2px 1px rgba(239, 243, 8, 0.295));
+  border-radius: 5px;
+}
+@media (min-width: 360px) {
+  body main main video {
+    width: 100%;
+    height: auto;
+  }
+}
+body footer {
+  background-color: rgba(7, 44, 80, 0.3294117647);
+  color: rgba(230, 237, 243, 0.8705882353);
+  text-align: center;
+  padding: 10px;
+  box-shadow: 2px 2px 4px 2px rgb(184, 135, 70);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.navbar-toggler {
+  background-color: white;
+  border: none;
+  margin-right: 2px;
+}
+
+.navbar {
+  background-color: rgba(7, 44, 80, 0.3294117647);
+  padding: 10px;
+  /*Iconos redes sociales*/
+}
+.navbar #logo {
+  color: #072C50;
+  font-weight: bold;
+  border-radius: 5px;
+  background-color: white;
+  margin-left: 1%;
+  box-shadow: 2px 2px 4px 2px rgba(230, 237, 243, 0.8705882353);
+  font-family: "Seymour One", sans-serif;
+  font-size: 50px;
+  margin-right: 7%;
+  transform: perspective(100px) rotateY(20deg);
+}
+.navbar #logo:hover {
+  transform: perspective(100px) rotateY(10deg);
+  box-shadow: 2px 2px 4px 2px rgb(184, 135, 70);
+  background-color: rgba(230, 237, 243, 0.8705882353);
+}
+.navbar ul {
+  display: flex;
+  gap: 30px;
+}
+.navbar ul li a {
+  text-align: center;
+  font-size: 20px;
+  text-decoration: none;
+  color: rgba(230, 237, 243, 0.8705882353);
+  font-weight: bold;
+  letter-spacing: 3px;
+  padding: 3px;
+  filter: drop-shadow(5px 2px 1px #072C50);
+}
+.navbar ul li a.active {
+  border-radius: 15px;
+  background-color: rgba(230, 237, 243, 0.3960784314);
+  box-shadow: 1px 1px 4px 1px rgba(230, 237, 243, 0.8705882353);
+  color: white;
+  filter: drop-shadow(5px 2px 1px #072C50);
+}
+.navbar ul li a:hover {
+  border-radius: 15px;
+  box-shadow: 1px 1px 4px 1px rgb(184, 135, 70);
+  color: white;
+  transition: all 0.3s ease;
+}
+.navbar #iconWhatsapp,
+.navbar #iconLinkedin,
+.navbar #iconGithub {
+  border-radius: 10px;
+  transform: scale(0.5);
+  transition: transform 0.9s, border-radius 0.9s;
+  filter: drop-shadow(5px 2px 1px #072C50);
+}
+.navbar #iconWhatsapp:hover,
+.navbar #iconLinkedin:hover,
+.navbar #iconGithub:hover {
+  border-radius: 20px;
+  transform: scale(0.7);
+  box-shadow: 2px 2px 4px 2px rgb(184, 135, 70);
+}
+
+/*# sourceMappingURL=estilos.css.map */
